@@ -4,9 +4,7 @@ function menuFunction1() {
 }
 
 		
-function menuFunction2() {
-	document.getElementById("myDropdown2").classList.toggle("show");
-}
+
 
 
 window.onclick = function (event) {
@@ -16,10 +14,6 @@ window.onclick = function (event) {
 			dropdown.classList.remove('show');
 		}
 	}
-	if (!event.target.matches('.dropbtn2')) {
-		var dropdown = document.getElementsByClassName("dropdown-content2")[0];
-		if (dropdown.classList.contains('show')) {
-			dropdown.classList.remove('show');
-		}	
-	}
+	
+	
 }
